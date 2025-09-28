@@ -1,9 +1,9 @@
-import passport from 'passport';  // Importing passport for authentication
-import express from 'express';    // Importing express for the web framework
-import { googleSignInController } from '../controllers/authController.js';  // Importing the Google sign-in controller
-import dotenv from 'dotenv';      // Importing dotenv to load environment variables
+import passport from 'passport'; // Importing passport for authentication
+import express from 'express'; // Importing express for the web framework
+import { googleSignInController } from '../controllers/authController.js'; // Importing the Google sign-in controller
+import dotenv from 'dotenv'; // Importing dotenv to load environment variables
 
-dotenv.config();  // Loading environment variables from .env file
+dotenv.config(); // Loading environment variables from .env file
 
 const authRouter = express.Router(); // Creating an instance of express Router for handling authentication routes
 const googleSignIn = new googleSignInController(); // Creating an instance of GoogleSignInController
