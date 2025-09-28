@@ -108,7 +108,7 @@ This project was created by [Ravikant Singh](https://github.com/ravikantsingh12)
 - [LinkedIn](https://www.linkedin.com/in/ravikant-singh-327a98241)
 
 ![signup](public/signup.png)
-![signSuccess](public/![signSuccess](public/signInWithGoogleSuccess.png).png)
+![signSuccess](public/signSuccess.png)
 ![changePass](public/changePass.png)
 ![changePassSuccess](public/changePassSuccess.png)
 ![checkForgetPass](public/checkForgetPass.png)
